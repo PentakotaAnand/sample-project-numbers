@@ -24,4 +24,9 @@ private NumberWords numberWords ;
 	public void testPositiveScenario1() {
 		Assert.assertEquals("Error","Eighteen", numberWords.toWords( 18 ) ) ;
 	}
+	
+	@Test
+	public void testPositiveScenario2() {
+		Assert.assertEquals("Error","Fifty", numberWords.toWords( 50 ) ) ;
+	}
 }
